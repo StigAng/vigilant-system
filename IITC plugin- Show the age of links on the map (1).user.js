@@ -2,19 +2,18 @@
 // @id             iitc-plugin-link-show-age
 // @name           IITC plugin: Show the age of links on the map
 // @category       Tweaks
-// @version        0.0.12
+// @version        0.0.13
 // @namespace      https://github.com/jonatkins/ingress-intel-total-conversion
 // @updateURL      https://www.renevlugt.nl/iitc-plugins/linkage.meta.js
 // @downloadURL    https://www.renevlugt.nl/iitc-plugins/linkage.user.js
 // @description    Show the age of links on the map by changing opacity to min 0.5
-// @include        https://www.ingress.com/intel*
-// @include        http://www.ingress.com/intel*
-// @include        https://ingress.com/intel*
-// @include        http://ingress.com/intel*
-// @match          https://www.ingress.com/intel*
-// @match          http://www.ingress.com/intel*
-// @match          https://ingress.com/intel*
-// @match          http://ingress.com/intel*
+// @author         Vashiru
+// @include        *://*.ingress.com/intel*
+// @include        *://*.ingress.com/mission/*
+// @include        *://intel.ingress.com/*
+// @match          *://*.ingress.com/intel*
+// @match          *://*.ingress.com/mission/*
+// @match          *://intel.ingress.com/*
 // @grant          none
 // ==/UserScript==
 
