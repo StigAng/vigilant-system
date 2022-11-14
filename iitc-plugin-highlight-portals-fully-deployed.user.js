@@ -3,8 +3,8 @@
 // @name           IITC plugin: highlight portals fully deployed
 // @category       Highlighter
 // @version        0.1.2.20170331.0915
-// @namespace      https://github.com/jonatkins/ingress-intel-total-conversion
-// @downloadURL    http://charlieoscardeltaecho.com/iitc_plugins/iitc-plugin-portal-highlighter-fully-deployed.user.js
+// @namespace      https://github.com/StigAng/vigilant-system/
+// @downloadURL    https://github.com/StigAng/vigilant-system/raw/main/iitc-plugin-highlight-portals-fully-deployed.user.js
 // @description    Remove Portals that arent' fully deployed.
 // @include        https://*.ingress.com/intel*
 // @include        http://*.ingress.com/intel*
