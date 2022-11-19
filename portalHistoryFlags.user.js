@@ -1,9 +1,9 @@
 // ==UserScript==
-// @id             portalHistoryFlags
+// @id             PortalHistoryFlags
 // @name           Portal History
 // @author         Jimsug
 // @category       Layer
-// @version        0.2.6
+// @version        0.2.7
 // @downloadURL    https://iitc.willbe.blue/download/366/v9tT42SPeu-uoM54m6lYuTg4NTIyNjI1YmI5MTVlZjc5NTI4MTk4OTkxNDA3YzBlM2MyNmUzZTM3YTUxMTVkMmQ5ZjNhMTVkOWE2ODg1N2K1jUfJ_qHcN4SCrwcVnXINqPcCOxHEivKEE-pjekYbMS7BGyJEje3RT-nazTZ0IrtPAp9jiqsR1g1EU91b0fm6nPeG0soLWw66g_hhy-4Zdg==/portalHistoryFlags.user.js
 // @updateURL      https://iitc.willbe.blue/update-header/366/KyDRtjmu-r81rPlb77xK7WE2ZWRmOGY1NDYxYWFkNjA2MDczZTU2MzNjY2MyMDc1YzRhZmQ0NjliZTBlNDhiYWFhYjMwYjk3YWUwMzdiZDUZAWZ-P7uKGzuAj28XrB4AtBMgYkmUkh-O052XNDA8rdB_HM2zN0xgaEYrd8MEgbxdMJQq_3EN3vYL-9mQooX38pJImhEeuedMO_MYDh_r2Q==/portalHistoryFlags.user.js
 // @description    Adds indicators and highlighters for portal history information
@@ -12,9 +12,6 @@
 // @grant          none
 // ==/UserScript==
 
-
-
- 
  function wrapper(plugin_info) {
  
      // Make sure that window.plugin exists. IITC defines it as a no-op function,
