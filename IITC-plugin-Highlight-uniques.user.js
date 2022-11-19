@@ -4,7 +4,7 @@
 // @category       Highlighter
 // @version        0.2.2
 // @namespace      https://github.com/StigAng/vigilant-system
-// @downloadURL    https://github.com/StigAng/vigilant-system/raw/main/IITC%20plugin-%20Highlight%20unique%20visits-captures%20using%20opacity.user.js
+// @downloadURL    https://github.com/StigAng/vigilant-system/raw/main/IITC-plugin-Highlight-uniques.user.js.user.js
 // @description    Used Highlighter to show Unique captures and visits
 // @match          https://intel.ingress.com/*
 // @match          https://intel-x.ingress.com/*
