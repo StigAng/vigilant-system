@@ -5,7 +5,6 @@
 // @version        0.2.0
 // @namespace      https://github.com/StigAng/vigilant-system/
 // @downloadURL    https://github.com/StigAng/vigilant-system/raw/main/iitc-plugin-highlight-portals-fully-deployed.user.js
-/ @updateURL    https://github.com/StigAng/vigilant-system/raw/main/iitc-plugin-highlight-portals-fully-deployed.user.js
 // @description    Remove Portals that arent' fully deployed.
 // @match          https://intel.ingress.com/*
 // @match          https://intel-x.ingress.com/*
