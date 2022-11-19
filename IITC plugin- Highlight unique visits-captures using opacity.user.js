@@ -6,12 +6,12 @@
 // @namespace      https://github.com/StigAng/vigilant-system
 // @updateURL      https://github.com/StigAng/vigilant-system/raw/main/IITC%20plugin-%20Highlight%20unique%20visits-captures%20using%20opacity.user.js
 // @downloadURL    https://github.com/StigAng/vigilant-system/raw/main/IITC%20plugin-%20Highlight%20unique%20visits-captures%20using%20opacity.user.js
-// @description    Use stroke and fill opacity to denote player's unique visits and captures. Requires uniques plugin.
+// @description    Used Highlighter to show Unique captures and visits
 // @match          https://intel.ingress.com/*
 // @match          https://intel-x.ingress.com/*
-// @match          https://*.ingress.com/intel*
 // @match          https://*.ingress.com/mission/*
 // @grant          none
+
 // ==/UserScript==
 
 //PLUGIN START ////////////////////////////////////////////////////////
