@@ -2,19 +2,14 @@
 // @id             iitc-plugin-superdata@anonymous_in_sf
 // @name           IITC plugin: Load a lot more portals/links
 // @category       Info
-// @version        0.0.1.20160513.52655
-// @namespace      https://github.com/jonatkins/ingress-intel-total-conversion
-// @updateURL      http://distomatic.s3-website-us-east-1.amazonaws.com/iitc/plugins/map-superdata.meta.js
-// @downloadURL    http://distomatic.s3-website-us-east-1.amazonaws.com/iitc/plugins/map-superdata.user.js
-// @description    [distomatic-2016-05-13-052655]
-// @include        https://*.ingress.com/intel*
-// @include        http://*.ingress.com/intel*
-// @match          https://*.ingress.com/intel*
-// @match          http://*.ingress.com/intel*
-// @include        https://*.ingress.com/mission/*
-// @include        http://*.ingress.com/mission/*
+// @version        0.0.2
+// @namespace      https://github.com/StigAng/vigilant-system/
+// @updateURL      https://github.com/StigAng/vigilant-system/raw/main/iitc-plugin-superdata%40anonymous_in_sf.user.js
+// @downloadURL    https://github.com/StigAng/vigilant-system/raw/main/iitc-plugin-superdata%40anonymous_in_sf.user.js
+// @description    Shows all portals
+// @match          https://intel.ingress.com/*
+// @match          https://intel-x.ingress.com/*
 // @match          https://*.ingress.com/mission/*
-// @match          http://*.ingress.com/mission/*
 // @grant          none
 // ==/UserScript==
 
