@@ -40,7 +40,7 @@ window.plugin.portalsFullyDeployed.highlight = function(data) {
 };
 
 var setup =  function() {
-  window.addPortalHighlighter('Portals Fully Deployed', window.plugin.portalsFullyDeployed.highlighter);
+  window.addPortalHighlighter('Portals Fully Deployed', window.plugin.portalsFullyDeployed.highlight);
 };
 
 // PLUGIN END //////////////////////////////////////////////////////////
