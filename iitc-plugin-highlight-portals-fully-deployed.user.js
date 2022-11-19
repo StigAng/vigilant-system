@@ -5,18 +5,13 @@
 // @version        0.1.2.20170331.0915
 // @namespace      https://github.com/StigAng/vigilant-system/
 // @downloadURL    https://github.com/StigAng/vigilant-system/raw/main/iitc-plugin-highlight-portals-fully-deployed.user.js
+/ @updateURL    https://github.com/StigAng/vigilant-system/raw/main/iitc-plugin-highlight-portals-fully-deployed.user.js
 // @description    Remove Portals that arent' fully deployed.
-// @include        https://*.ingress.com/intel*
-// @include        http://*.ingress.com/intel*
-// @match          https://*.ingress.com/intel*
-// @match          http://*.ingress.com/intel*
-// @include        https://*.ingress.com/mission/*
-// @include        http://*.ingress.com/mission/*
+// @match          https://intel.ingress.com/*
+// @match          https://intel-x.ingress.com/*
 // @match          https://*.ingress.com/mission/*
-// @match          http://*.ingress.com/mission/*
 // @grant          none
 // ==/UserScript==
-
 
 function wrapper(plugin_info) {
 // ensure plugin framework is there, even if iitc is not yet loaded
@@ -27,8 +22,6 @@ if(typeof window.plugin !== 'function') window.plugin = function() {};
 plugin_info.buildName = 'iitc';
 plugin_info.pluginId = 'portal-highlighter-fully-deployed';
 //END PLUGIN AUTHORS NOTE
-
-
 
 // PLUGIN START ////////////////////////////////////////////////////////
 
@@ -66,5 +59,3 @@ var info = {};
 if (typeof GM_info !== 'undefined' && GM_info && GM_info.script) info.script = { version: GM_info.script.version, name: GM_info.script.name, description: GM_info.script.description };
 script.appendChild(document.createTextNode('('+ wrapper +')('+JSON.stringify(info)+');'));
 (document.body || document.head || document.documentElement).appendChild(script);
-
-
