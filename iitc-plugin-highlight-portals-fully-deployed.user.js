@@ -2,7 +2,7 @@
 // @id             iitc-plugin-highlight-portals-fully-deployed
 // @name           IITC plugin: highlight portals fully deployed
 // @category       Highlighter
-// @version        0.1.2.20170331.0915
+// @version        0.2.0
 // @namespace      https://github.com/StigAng/vigilant-system/
 // @downloadURL    https://github.com/StigAng/vigilant-system/raw/main/iitc-plugin-highlight-portals-fully-deployed.user.js
 / @updateURL    https://github.com/StigAng/vigilant-system/raw/main/iitc-plugin-highlight-portals-fully-deployed.user.js
